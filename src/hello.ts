@@ -20,7 +20,7 @@ const wakeup = (): void => {
             muteHttpExceptions: true
         });
 
-        console.log(res);
+        Logger.log(res);
     });
 };
 
